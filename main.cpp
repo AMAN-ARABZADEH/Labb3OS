@@ -3,7 +3,7 @@
 // Authur: Aman Arabzadeh
 
 void menu() {
-    std::cout << "The is a chunck value alllocator.\n";
+    std::cout << "This is a chunck value alllocator.\n";
     std::cout << "Enter 1 to allocate for 1 GiB:\n";
     std::cout << "Enter 2 to allocate in KiB:\n";
     std::cout << "=====================================\n";
@@ -12,7 +12,7 @@ void menu() {
 
 
 
-void  ByteSize(int64_t& size, int choice) {
+void  ByteSize(int64_t &size, int choice) {
     int64_t total = 0;
     auto GBCounter = 0;
     auto KBCounter = 0;
